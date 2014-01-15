@@ -13,6 +13,9 @@ jQuery(document).ready(function($) {
         else if ($(this).find(".squareLitDemo").attr("entrance") == 3) {
             $(this).find(".squareLitDemo").animate({right: '0'}, {queue: false, duration: 400});
         }
+        else if ($(this).find(".squareLitDemo").attr("entrance") == 4) {
+            $(this).find(".squareLitDemo").animate({right: '0'}, {queue: false, duration: 400});
+        }
         ////////////not slide//////////
         else if ($(this).find(".squareLitDemo").attr("entrance") == 'effect') {
             if (!$(this).find(".squareDemo_production").hasClass('maskImg')) {
@@ -28,7 +31,10 @@ jQuery(document).ready(function($) {
             $(this).find(".squareLitDemo").animate({top: -(height_val - title_val)}, {queue: false, duration: 400});
         }
         else if ($(this).find(".squareLitDemo").attr("entrance") == 3) {
-            $(this).find(".squareLitDemo").animate({right: width_val - title_val}, {queue: false, duration: 400});
+            $(this).find(".squareLitDemo").animate({right: width_val}, {queue: false, duration: 400});
+        }
+        else if ($(this).find(".squareLitDemo").attr("entrance") == 4) {
+            $(this).find(".squareLitDemo").animate({right: -width_val}, {queue: false, duration: 400});
         }
         ////////////not slide//////////
         else if ($(this).find(".squareLitDemo").attr("entrance") == 'effect') {
