@@ -548,14 +548,16 @@ jQuery(document).ready(function($) {
         $('.squareDemo_history').unbind("hover");
         $('.squareDemo_history').hover(function() {
             if ($(this).find(".squareLitDemo2").attr("entrance") == 1) {
-                $(this).find(".squareLitDemo2").animate({top: '0px'}, {queue: false, duration: 400});
+                $(this).find(".squareLitDemo").animate({top: '0'}, {queue: false, duration: 400});
             }
             else if ($(this).find(".squareLitDemo2").attr("entrance") == 2) {
-                $(this).find(".squareLitDemo2").animate({top: '0'}, {queue: false, duration: 400});
+                $(this).find(".squareLitDemo").animate({top: '0'}, {queue: false, duration: 400});
             }
             else if ($(this).find(".squareLitDemo2").attr("entrance") == 3) {
-                $(this).find(".squareLitDemo2").animate({top: '0px'}, {queue: false, duration: 400});
-                $(this).find(".squareLitDemo2").animate({right: '0'}, {queue: false, duration: 400});
+                $(this).find(".squareLitDemo").animate({right: '0'}, {queue: false, duration: 400});
+            }
+            else if ($(this).find(".squareLitDemo2").attr("entrance") == 4) {
+                $(this).find(".squareLitDemo").animate({right: '0'}, {queue: false, duration: 400});
             }
             ////////////not slide//////////
             else if ($(this).find(".squareLitDemo2").attr("entrance") == 'effect') {
@@ -566,13 +568,16 @@ jQuery(document).ready(function($) {
             }
         }, function() {
             if ($(this).find(".squareLitDemo2").attr("entrance") == 1) {
-                $(this).find(".squareLitDemo2").animate({top: '160px'}, {queue: false, duration: 400});
+                $(this).find(".squareLitDemo").animate({top: height_val - title_val}, {queue: false, duration: 400});
             }
             else if ($(this).find(".squareLitDemo2").attr("entrance") == 2) {
-                $(this).find(".squareLitDemo2").animate({top: '-160px'}, {queue: false, duration: 400});
+                $(this).find(".squareLitDemo").animate({top: -(height_val - title_val)}, {queue: false, duration: 400});
             }
             else if ($(this).find(".squareLitDemo2").attr("entrance") == 3) {
-                $(this).find(".squareLitDemo2").animate({right: '160'}, {queue: false, duration: 400});
+                $(this).find(".squareLitDemo").animate({right: width_val}, {queue: false, duration: 400});
+            }
+            else if ($(this).find(".squareLitDemo2").attr("entrance") == 4) {
+                $(this).find(".squareLitDemo").animate({right: -width_val}, {queue: false, duration: 400});
             }
             ////////////not slide//////////
             else if ($(this).find(".squareLitDemo2").attr("entrance") == 'effect') {
