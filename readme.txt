@@ -8,7 +8,7 @@ Stable tag: 1.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/quick-guide-gplv3.html
 
-Wordpress Visual Slide-Box Builder Ð Build beautiful slides using CSS3, HTML5 & JavaScript without writing a line of code.
+Fancy jQuery and CSS3 driven animations to display inside a box. No coding experience needed - WYSIWYG
 
 == Description ==
 <p>
