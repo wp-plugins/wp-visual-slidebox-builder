@@ -4,7 +4,7 @@ Donate link: http://wordpressvisualslideboxbuilder.com/donate/
 Tags: slidebox, box, visual builder
 Requires at least: 3.4
 Tested up to: 3.8
-Stable tag:
+Stable tag: 1.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/quick-guide-gplv3.html
 
