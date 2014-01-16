@@ -49,5 +49,5 @@ FAQs can be found <a target='blank' href='http://wordpressvisualslideboxbuilder.
 
 == Screenshots ==
 
-screen_1.png
-screen_2.png
+screen shot 1
+screen shot 2
