@@ -1,7 +1,7 @@
 === Wordpress Visual Slide Box Builder  ===
 Contributors: ecorvo
 Donate link: http://wordpressvisualslideboxbuilder.com/donate/
-Tags: slidebox, box, visual builder
+Tags: slidebox, box, visual builder, images, animations, WYSIWYG, slider, fancy, jquery, css
 Requires at least: 3.4
 Tested up to: 3.8
 Stable tag: 1.0
@@ -50,4 +50,4 @@ FAQs can be found <a target='blank' href='http://wordpressvisualslideboxbuilder.
 == Screenshots ==
 
 1. To the left you have the live preview, and the menu for save, create new, help, donate, and support. To the right you have all the properties you can set to create your animation.
-2. This shows the history, all the animations you have created in the past.
+2. This shows the history, all the animations you have created in the past. 
