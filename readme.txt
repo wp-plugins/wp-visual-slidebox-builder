@@ -49,5 +49,5 @@ FAQs can be found <a target='blank' href='http://wordpressvisualslideboxbuilder.
 
 == Screenshots ==
 
-1. screenshot 1
-2. screenshot 2
+1. To the left you have the live preview, and the menu for save, create new, help, donate, and support. To the right you have all the properties you can set to create your animation.
+2. This shows the history, all the animations you have created in the past. 
