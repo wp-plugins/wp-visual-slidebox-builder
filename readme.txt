@@ -1,7 +1,7 @@
 === Wordpress Visual Slide Box Builder  ===
 Contributors: ecorvo
 Donate link: http://wordpressvisualslideboxbuilder.com/donate/
-Tags: slidebox, box, visual builder
+Tags: slidebox, box, visual builder, images, animations, WYSIWYG, slider, fancy, jquery, css
 Requires at least: 3.4
 Tested up to: 3.8
 Stable tag: 1.0
