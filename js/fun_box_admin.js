@@ -1180,7 +1180,7 @@ jQuery(document).ready(function($) {
                 save_name: $('.save_name').val(),
             };
             $.post(ajaxurl, data, function(resp) {
-                var href = 'http://www.facebook.com/share.php?u=' + resp.page_url.replace('localhost:8888', 'wordpressvisualslideboxbuilder.com');
+                var href = 'http://www.facebook.com/share.php?u=' + resp.page_url.replace('localhost:8888', 'wpvisualslideboxbuilder.com');
                 // $('.lins_menu_wrapper .shareFB').html("<a class='share_fb' href='http://www.facebook.com/share.php?u=" + href + "'>Share</a>");
                 window.location.href = href; //causes the browser to refresh and load the requested url
             });

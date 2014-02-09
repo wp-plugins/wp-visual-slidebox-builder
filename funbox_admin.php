@@ -3,7 +3,7 @@
     <div class="mainWrapper">
         <div class="row">
             <h1 class='span10'>WP VISUAL SLIDE-BOX BUILDER</h1>
-            <a class='span3 pull-right feedback' target='blank' href="http://wordpressvisualslideboxbuilder.com/contact/"><img style='margin-top: -10px;' width='25' src='<?php echo plugins_url() ?>/funbox/img/thumsup.svg'/> We love your feedback </a>
+            <a class='span3 pull-right feedback' target='blank' href="http://wpvisualslideboxbuilder.com/contact/"><img style='margin-top: -10px;' width='25' src='<?php echo plugins_url() ?>/funbox/img/thumsup.svg'/> We love your feedback </a>
         </div>
         <div id="fb-root"></div>
         <script>(function(d, s, id) {
@@ -28,10 +28,10 @@
                                 <button class = "btn btn-warning help-me">Help</button>
                             </div>
                             <div class="lins_menu_wrapper span6">
-                                <a target='blank' href='http://wordpressvisualslideboxbuilder.com/forums/' class="links_menu label label-inverse label-normal" href="">
+                                <a target='blank' href='http://wpvisualslideboxbuilder.com/forums/' class="links_menu label label-inverse label-normal" href="">
                                     Support
                                 </a>
-                                <a target='blank' href="http://www.wordpressvisualslideboxbuilder.com/donate"  class="links_menu label label-inverse label-normal" href="">
+                                <a target='blank' href="http://www.wpvisualslideboxbuilder.com/donate"  class="links_menu label label-inverse label-normal" href="">
                                     Donate
                                 </a>
                                 <!--                                <a class="links_menu label label-info label-normal share-box">
@@ -43,7 +43,7 @@
                                                                 </span>-->
                                 <div class="shareFB"></div>
                                 <div style="clear: both;height: 15px;"></div>
-                                <a class="webAddress" target="blank" href="http://www.wordpressvisualslideboxbuilder.com">www.wordpressvisualslideboxbuilder.com</a>
+                                <a class="webAddress" target="blank" href="http://www.wpvisualslideboxbuilder.com">www.wpvisualslideboxbuilder.com</a>
                             </div>
                         </div>
                     </div>
