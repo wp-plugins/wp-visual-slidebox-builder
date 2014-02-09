@@ -37,6 +37,8 @@ existing slide-boxes, and any changes will automatically propagate throughout th
 <p>Hope you enjoy this plugin and find it useful. If you have any suggestions please <a href='http://wpvisualslideboxbuilder.com/contact/' target='blank'>speak up</a>, will love to hear about it.</p>
 <p>For a live demo visit the plugin's <a href='http://wpvisualslideboxbuilder.com' target='blank'>website</a></p>
 
+[youtube http://www.youtube.com/watch?v=cDoLUATTRDc]
+
 == Installation ==
 
 1. Upload and extract the zip file downloaded to the /wp-content/plugins/ directory
