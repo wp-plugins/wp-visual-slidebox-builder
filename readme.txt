@@ -4,7 +4,7 @@ Donate link: http://wpvisualslideboxbuilder.com/donate/
 Tags: slidebox, box, visual builder, images, animations, WYSIWYG, slider, fancy, jquery, css, slide-up, mosaic, slide
 Requires at least: 3.4
 Tested up to: 3.8
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/quick-guide-gplv3.html
 
