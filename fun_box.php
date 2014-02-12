@@ -2,11 +2,11 @@
 
 /*
   Plugin Name: Virtual Slide Box Builder
-  Plugin URI: http://www.orangecreative.net
+  Plugin URI: http://www.wpvisualslideboxbuilder.com
   Description: Fancy jQuery driven animations to display inside a box
   Author: Enmanuel Corvo
   Version: 1.0
-  Author URI: http://www.orangecreative.net
+  Author URI: http://wpvisualslideboxbuilder.com
  */
 
 function funbox_admin() {
