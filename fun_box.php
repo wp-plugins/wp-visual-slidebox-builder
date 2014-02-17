@@ -1,11 +1,11 @@
 <?php
 
 /*
-  Plugin Name: Virtual Slide Box Builder
+  Plugin Name: WP Visual Slide Box Builder
   Plugin URI: http://wpvisualslideboxbuilder.com
   Description: Fancy jQuery driven animations to display inside a box
   Author: Enmanuel Corvo
-  Version: 1.0
+  Version: 1.1
   Author URI: http://wpvisualslideboxbuilder.com
  */
 
