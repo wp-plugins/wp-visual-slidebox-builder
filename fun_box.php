@@ -5,7 +5,7 @@
   Plugin URI: http://wpvisualslideboxbuilder.com
   Description: Fancy jQuery driven animations to display inside a box
   Author: Enmanuel Corvo
-  Version: 1.2.1
+  Version: 1.2.2
   Author URI: http://wpvisualslideboxbuilder.com
  */
 
