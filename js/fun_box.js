@@ -2,17 +2,29 @@ jQuery(document).ready(function (e) {
     e('.squareDemo_production .squareLitDemo').removeClass('fadeOut fadeOutDown fadeOutDownBig fadeOutLeft fadeOutLeftBig fadeOutRight fadeOutRightBig fadeOutUp fadeOutUpBig bounce flash pulse shake swing tada wobble bounceOut zoomOutUp zoomOutRight hinge zoomOutLeft zoomOut rollOut zoomOutDown bounceOutDown rotateOutUpRight rotateOutUpLeft rotateOutDownRight rotateOutDownLeft rotateOut bounceOutLeft lightSpeedOut bounceOutRight bounceOutUp flipOutX flipOutY').addClass('wpvsbb_hide_quick')
     e(".squareDemo_production").unbind("hover");
     e(".squareDemo_production").hover(function () {
+        var link_out = e(this).find('.squareLitDemo.shape').find('.title_link_out').attr('href');
+        e(this).find('.title_link_out').off('click');
+        e(this).find('.title_link_out').on('click', function (event) {
+            event.preventDefault();
+        })
         e('.squareDemo_production .squareLitDemo').removeClass('wpvsbb_hide_quick')
-        if(e(this).find('.squareLitDemo.shape').find('.title_link_out').attr('href') ==''){
-            e(this).find('.squareLitDemo.shape').find('.title_link_out').css('cursor','default');
+        if (link_out == '' || typeof(link_out) == 'undefined') {
+            e(this).find('.squareLitDemo.shape').find('.title_link_out').css('cursor', 'default');
+            e(this).find('.squareLitDemo.shape').css('cursor', 'default');
+        }else{
+            e(this).find('.squareLitDemo.shape').css('cursor', 'pointer');
         }
-        e(this).find('.squareLitDemo.shape').css('cursor', 'pointer');
         e(this).find('.squareLitDemo.shape').off('click');
         e(this).find('.squareLitDemo.shape').on('click', function (event) {
-            if(e(this).find('.title_link_out').attr('href') ==''){
-                e(this).find('.title_link_out').css('cursor','default')
+            if (e(this).find('.title_link_out').attr('href') == '') {
+                e(this).find('.title_link_out').css('cursor', 'default')
                 event.preventDefault();
                 event.stopPropagation();
+            }
+            if (link_out != '' && typeof(link_out)!='undefined' && e(this).find('.title_link_out').attr('target') == 'blank') {
+                window.open(e(this).find('.title_link_out').attr('href'), 'window name', 'window settings');
+            } else if (link_out != '' && typeof(link_out)!='undefined') {
+                window.location = link_out;
             }
         })
         height_val = e(this).height();
