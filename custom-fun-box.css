@@ -1,6 +1,6 @@
 .centerOuterDiv{
-    position: absolute!important;
-    top: 300px!important;
+    /*position: absolute!important;*/
+    /*top: 300px!important;*/
 }
 
 .subWrapper{
@@ -150,6 +150,7 @@
     padding: 0;
     margin-top: 0px;
     padding-bottom: 10px;
+    margin-bottom: 40px;
 }
 
 .mainWrapper{
@@ -184,14 +185,17 @@
 
 
 .centerDiv{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -50px;
-    margin-left: -50px;
-    width: 100px;
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*margin-top: -50px;*/
+    /*margin-left: -50px;*/
+    /*width: 100px;*/
+    /*height: 100px;*/
+    /*background-color: blue;*/
+    margin-top: 20px;
     height: 100px;
-    background-color: blue;
+    height: auto;
 }
 
 .funbox.sidebar{
