@@ -3,7 +3,6 @@
     <div class="mainWrapper">
         <div class="row">
             <h1 class='span10'><?php _e('WP VISUAL SLIDE-BOX BUILDER', 'wp-visual-slidebox-builder'); ?></h1>
-            <p>If you enjoy this plugin you are going to love this one <a href="https://wordpress.org/plugins/wp-easy-bubble-menu/" target="_blank">WP Easy Bubble Menu</a></p>
             <a class='span3 pull-right feedback' target='blank' href="http://wpvisualslideboxbuilder.com.com/contact/"><img style='margin-top: -10px;' width='25' src='<?php echo plugins_url() ?>/wp-visual-slidebox-builder/img/thumsup.svg'/> We love your feedback </a>
             <a style='margin-top: -5px;' class='span3 pull-right feedback' target='blank' href="http://wordpress.org/support/view/plugin-reviews/wp-visual-slidebox-builder">***** Rate me!</a>
         </div>
@@ -73,6 +72,7 @@
                             <div class="top_side_1">
                                 <div class = "row-fluid">
                                     <h5 class = "round"><?php _e('BOX', 'wp-visual-slidebox-builder'); ?></h5>
+            <p>If you enjoy this plugin you are going to love this one <a href="https://wordpress.org/plugins/wp-easy-bubble-menu/" target="_blank">WP Easy Bubble Menu</a></p>
                                     <div class = "span6" style='margin: 0; margin-left: 10px;'>
                                         <div class = "section large span12 rCorners">
                                             <span class = "label2 span12 muted"><?php _e('Rounded Corners', 'wp-visual-slidebox-builder'); ?></span>
