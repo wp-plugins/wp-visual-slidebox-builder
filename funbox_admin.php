@@ -72,7 +72,13 @@
                             <div class="top_side_1">
                                 <div class = "row-fluid">
                                     <h5 class = "round"><?php _e('BOX', 'wp-visual-slidebox-builder'); ?></h5>
-            <p>If you enjoy this plugin you are going to love this one <a href="https://wordpress.org/plugins/wp-easy-bubble-menu/" target="_blank">WP Easy Bubble Menu</a></p>
+                                    <p style="
+    color: #ffffff;
+    padding: 10px 10px;
+">If you enjoy this plugin you are going to love this one <a href="https://wordpress.org/plugins/wp-easy-bubble-menu/" target="_blank" style="
+    color: #2657C3;
+    font-weight: bold;
+">WP Easy Bubble Menu</a></p>
                                     <div class = "span6" style='margin: 0; margin-left: 10px;'>
                                         <div class = "section large span12 rCorners">
                                             <span class = "label2 span12 muted"><?php _e('Rounded Corners', 'wp-visual-slidebox-builder'); ?></span>
