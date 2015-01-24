@@ -1,10 +1,10 @@
 === Wordpress Visual Slide Box Builder  ===
 Contributors: ecorvo
 Donate link: http://wpvisualslideboxbuilder.com/donate/
-Tags: slidebox, box,image hover effect, hover effect, hover, visual builder, images, animations, WYSIWYG, slider, fancy, jquery, css, slide-up, mosaic, slide
+Tags: image rollover, rollover images, rollovers, rollover image plugin, slidebox, box,image hover effect, hover effect, hover, visual builder, images, animations, WYSIWYG, slider, fancy, jquery, css, slide-up, mosaic, slide
 Requires at least: 3.4
-Tested up to: 3.8
-Stable tag: 1.2.6
+Tested up to: 4.1
+Stable tag: 1.2.8
 License: GPLv3
 License URI: http://www.gnu.org/licenses/quick-guide-gplv3.html
 
