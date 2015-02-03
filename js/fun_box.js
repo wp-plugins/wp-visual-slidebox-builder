@@ -3,6 +3,20 @@ jQuery(document).ready(function (e) {
         if (e(item_selector).attr('entrance') == 'effect') {
             e(item_selector).removeClass('fadeOut fadeOutDown fadeOutDownBig fadeOutLeft fadeOutLeftBig fadeOutRight fadeOutRightBig fadeOutUp fadeOutUpBig bounce flash pulse shake swing tada wobble bounceOut zoomOutUp zoomOutRight hinge zoomOutLeft zoomOut rollOut zoomOutDown bounceOutDown rotateOutUpRight rotateOutUpLeft rotateOutDownRight rotateOutDownLeft rotateOut bounceOutLeft lightSpeedOut bounceOutRight bounceOutUp flipOutX flipOutY').addClass('wpvsbb_hide_quick')
         }
+
+        height_val2 = e(item_selector).parents('.squareDemo_production').height();
+        width_val2 = e(item_selector).parents('.squareDemo_production').width();
+        title_val2 = e(item_selector).find("h3.title").height();
+
+        if (e(item_selector).attr("entrance") == 1) {
+            e(item_selector).animate({top: height_val2 - title_val2}, {queue: false, duration: 1})
+        } else if (e(item_selector).attr("entrance") == 2) {
+            e(item_selector).animate({top: -(height_val2 - title_val2)}, {queue: false, duration: 1})
+        } else if (e(item_selector).attr("entrance") == 3) {
+            e(item_selector).animate({right: width_val2}, {queue: false, duration: 1})
+        } else if (e(this).find(".squareLitDemo").attr("entrance") == 4) {
+            ee(item_selector).animate({right: -width_val2}, {queue: false, duration: 1})
+        }
     });
     e(".squareDemo_production").unbind("hover");
     e(".squareDemo_production").hover(function () {
