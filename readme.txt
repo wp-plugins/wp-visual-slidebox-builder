@@ -3,8 +3,8 @@ Contributors: ecorvo
 Donate link: http://wpvisualslideboxbuilder.com/donate/
 Tags: image rollover, rollover images, rollovers, rollover image plugin, slidebox, box,image hover effect, hover effect, hover, visual builder, images, animations, WYSIWYG, slider, fancy, jquery, css, slide-up, mosaic, slide
 Requires at least: 3.4
-Tested up to: 4.1
-Stable tag: 1.2.10
+Tested up to: 4.2
+Stable tag: 1.2.11
 License: GPLv3
 License URI: http://www.gnu.org/licenses/quick-guide-gplv3.html
 
