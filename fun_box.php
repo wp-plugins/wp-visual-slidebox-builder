@@ -144,7 +144,7 @@ function funbox_install()
               )DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;";
         $wpdb->query($sql);
     } else {
-        $wpdb->query("ALTER TABLE wp_funbox
+        $wpdb->query("ALTER TABLE $table_name
         CHANGE COLUMN boxId boxId VARCHAR(255) NULL DEFAULT NULL ,
         CHANGE COLUMN box_html box_html LONGTEXT NULL DEFAULT NULL ,
         CHANGE COLUMN save_name save_name VARCHAR(255) NULL DEFAULT NULL ,
